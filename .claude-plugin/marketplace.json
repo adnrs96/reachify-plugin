@@ -1,0 +1,11 @@
+{
+  "name": "reachify",
+  "owner": { "name": "Reachify" },
+  "plugins": [
+    {
+      "name": "reachify",
+      "source": "./",
+      "description": "Reachify judgement-job worker skill + slash command."
+    }
+  ]
+}
