@@ -1,5 +1,6 @@
 {
   "name": "reachify",
+  "description": "Reachify plugins for Claude Code — the judgement-job worker that polls the Reachify queue, runs each job in a sub-agent, and reports the result back.",
   "owner": { "name": "Reachify" },
   "plugins": [
     {
