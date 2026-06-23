@@ -7,7 +7,11 @@ description: >-
   work — wait for the next tick. Use when asked to "run the reachify worker",
   "work the judgement-job queue", "poll reachify for jobs", "process reachify
   jobs", or to drive get-job / complete-job in a loop.
-allowed-tools: Bash(reachify *)
+allowed-tools:
+  - Bash(reachify *)
+  - Read(/tmp/.reachify/**)
+  - Read(/tmp/.reachify/**)
+  - Write(/tmp/.reachify/**)
 ---
 
 # Run reachify — the worker loop

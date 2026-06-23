@@ -15,8 +15,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   `sensitive` (stored in the OS keychain, never `settings.json`) and `required`.
 - `SessionStart` hook (`hooks/hooks.json`) that runs `reachify login` automatically
   each session, using the configured key as the id and token as the token.
-- `allowed-tools: Bash(reachify *)` on the worker skill so it drives the bundled
-  `reachify` CLI without per-call permission prompts.
+- `allowed-tools` on the worker skill so it runs the bundled `reachify` CLI
+  (`Bash(reachify *)`) and reads and writes the per-job working dir
+  (`Read(/tmp/.reachify/**)`, `Write(/tmp/.reachify/**)`) without per-call
+  permission prompts.
 - `description` field on the marketplace manifest.
 
 ### Changed
