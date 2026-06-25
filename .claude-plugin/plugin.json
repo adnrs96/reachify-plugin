@@ -1,6 +1,6 @@
 {
   "name": "reachify-plugin",
-  "version": "0.0.8",
+  "version": "0.1.0",
   "description": "Reachify judgement-job worker — poll the queue, hand each job to a sub-agent, and report the result back. Ships the worker-loop skill plus a slash command to drive it.",
   "author": { "name": "Aditya Bansal" },
   "homepage": "https://www.ganeshmenon.com/",
