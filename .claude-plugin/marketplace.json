@@ -5,7 +5,7 @@
   "plugins": [
     {
       "name": "reachify-plugin",
-      "source": "./",
+      "source": "./plugins/reachify-plugin",
       "description": "Reachify judgement-job worker skill + slash command."
     }
   ]
